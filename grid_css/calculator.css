@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+}
+.main{
+    background-color: antiquewhite;
+    height: 60%;
+    width: 40%;
+    justify-items: center;
+    justify-content: center;
+    
+}
+
+
+.firsttext{
+
+    color: rgb(19, 128, 19);
+    text-align: right;
+    margin: 10px;
+    font-size: x-large;
+}
+
+.secondtext{
+    border: 1px solid black;
+    text-align: right;
+    border-radius: 5px;
+    background-color: aquamarine;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.number{
+    width: 100%;
+    align-items: end;
+}
+
+.second{
+    text-align: right;
+    padding: 10px;
+    background-color: rgb(47, 213, 255);
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 90%;
+    justify-self: center;
+    font-size: x-large;
+
+}
+.numbers{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 0px;
+    row-gap: 8px;
+    margin-left: 20px;
+}
+.numb{
+    background-color: burlywood;
+    
+    border-radius: 10px;
+    text-align: center;
+    width: 50px;
+    height: 60px;
+    font-size: x-large;
+    box-shadow: inset 0px 4px 8px;
+}
+.sign{
+    background-color: rgb(238, 201, 238);
+    border-radius: 5px;
+    text-align: center;
+    width: 50px;
+    height: 60px;
+    font-size: x-large;
+    box-shadow: inset 0px 8px 4px rgb(19, 128, 19);
+
+}
+.symb{
+    background-color: aqua;
+    border-radius: 5px;
+    text-align: center;
+    width: 50px;
+    height: 60px;
+    font-size: x-large;
+}
+.c{
+    background-color: rgb(236, 107, 48);
+    border-radius: 5px;
+    text-align: center;
+    width: 50px;
+    height: 60px;
+    font-size: x-large;
+}
+
+

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 70%;
+    height: 60%;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+
+}
+
+.leftnumb{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(50, 31, 31);
+    width: 25px;
+}
+.main{
+    display: flex;
+}
+.rightnumb{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.symb1{
+    background-color: brown;
+    border-radius: 20px;
+}
+.sign1{
+    background-color: blue;
+    border-radius: 20px;
+    
+}

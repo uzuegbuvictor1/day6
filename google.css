@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    background-color: antiquewhite;
+
+
+}
+.main{
+    background-color: white;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.header{
+    position: absolute;
+    top: 00px;
+    right: 10px;
+    padding: 25px;
+}
+.signin{
+    
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.google{
+    position: absolute;
+    top: 120px;
+    right: 600px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.search{
+    border-radius: 30px;
+    height: 50px;
+    width: 500px;
+    
+
+}
+.middle{
+    display: flex;
+    margin:10px;
+    padding: 20px;
+    justify-content: space-around;
+    
+}
+.purple{
+    color: purple;
+}
+.first{
+    background-color: beige;
+    
+}
+.second{
+    background-color: beige;
+}
+.third{
+    position: absolute;
+    right: 500px;
+}
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+.yellow{
+    color: orange;
+}
+.green{
+    color: green;
+}
+
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+.leftfooter{
+    display: flex;
+    
+}
+.n{
+    margin: 2px;
+}
+
+
+
